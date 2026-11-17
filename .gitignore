@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python (server/)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Server runtime cache & logs
+server/firmware_cache/
+*.log
+
+# Arduino build outputs
+arduino-firmware/dist/
+*.hex
+*.bin
+*.elf
+*.eep
+*.map
+
+# Android / Gradle / Kotlin
+.gradle/
+**/build/
+**/.kotlin/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Nix
+result
+result-*
+.direnv/
